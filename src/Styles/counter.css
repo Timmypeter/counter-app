@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%;
+}
+
+.counter-cont {
+  display: flex;
+  background-color: #fff;
+  max-width: 600px;
+  margin: 200px auto;
+  display: flex;
+  align-items: center;
+  padding: 2.8rem;
+  background-color: rgb(55, 50, 73, 0.2);
+  background-color: #6c6587;
+  background-repeat: 9px;
+  border-radius: 12px;
+
+  box-shadow: 0 0 0 0.2 rgb(55, 50, 73, 0.2);
+
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.increment-btn,
+.decrement-btn,
+.reset-btn {
+  border: 1px solid inherit;
+  width: 77px;
+  border-radius: 9px;
+  /* width: 50px;
+  height: 50px; */
+  font-size: 40px;
+  background-color: inherit;
+  color: #f9c5c5;
+  border: none;
+  font-weight: 700;
+}
+
+.increment-btn {
+  margin-right: 9px;
+}
+
+.increment-btn:hover,
+.decrement-btn:hover,
+.reset-btn:hover {
+  cursor: pointer;
+}
+
+input {
+  text-align: center;
+  border: none;
+  width: 90%;
+  font-size: 120px;
+  font-weight: 700;
+  background-color: inherit;
+  outline: none;
+  color: inherit;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 450px) {
+  .counter-cont {
+    font-size: 0.5rem;
+    max-width: 400px;
+  }
+}

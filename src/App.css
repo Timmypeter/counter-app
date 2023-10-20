@@ -1,0 +1,16 @@
+body {
+  background-color: #5c547a;
+  color: #f9c5c5;
+  max-width: 1200px;
+  padding: 0 9px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+@media (max-width: 450px) {
+  body {
+    padding: 18px;
+  }
+}
