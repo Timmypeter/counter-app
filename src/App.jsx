@@ -7,12 +7,12 @@ import {
 import "./App.css";
 import Homepage from "./components/Homepage";
 import Counter from "./components/Counter";
-import NavBar from "./components/NavBar";
-import Error from "./components/Error";
+import Error from "./components/404page";
+import { ErrorBoundary } from "react-error-boundary";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<NavBar />}>
+    <Route>
       <Route path="/" element={<Homepage />} />
       <Route path="/counter" element={<Counter />} />
       <Route path="*" element={<Error />} />

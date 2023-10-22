@@ -1,0 +1,23 @@
+.err-page {
+  font-size: 18px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.errorr-header {
+  font-size: 100px;
+}
+
+.error-message {
+  text-align: center;
+}
+
+.homepage {
+  margin-top: 24px;
+}
+
+@media (max-width: 450px) {
+  .errorr-header {
+    font-size: 45px;
+  }
+}

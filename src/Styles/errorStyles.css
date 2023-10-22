@@ -1,0 +1,44 @@
+/* errorStyles.css */
+
+html {
+  font-size: 62.5%;
+}
+.error-fallback {
+  text-align: center;
+
+  margin-top: 20rem;
+}
+
+.error-header {
+  font-size: 3.6rem;
+}
+.error-message {
+  font-size: 1.8rem;
+}
+
+.error-button {
+  color: inherit;
+  background-color: #f9cba8;
+  padding: 12px;
+  text-transform: capitalize;
+  border-radius: 9px;
+  border: none;
+  color: #555;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 9px;
+}
+
+.error-button:hover {
+  cursor: pointer;
+  background-color: #c7a286;
+}
+
+@media (max-width: 450px) {
+  .error-header {
+    font-size: 1.8rem;
+  }
+  .error-message {
+    font-size: 1.4rem;
+  }
+}

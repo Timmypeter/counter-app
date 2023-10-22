@@ -43,7 +43,17 @@
 }
 
 .about-app {
-  width: 80%;
+  width: 78%;
+  margin-bottom: 9px;
+}
+
+.error-test {
+  color: #c7a286;
+}
+
+.error-test:hover {
+  cursor: pointer;
+  color: #a2856f;
 }
 
 @media (max-width: 450px) {
