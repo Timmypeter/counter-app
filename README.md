@@ -17,8 +17,6 @@ A simple counter application built using React. This application allows users to
 - [Custom Hook](#custom-hook)
 - [Styling](#styling)
 - [Error Handling](#error-handling)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
