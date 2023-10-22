@@ -38,11 +38,11 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
 
-Install dependencies: npm install
+2. Install dependencies: npm install
 
-Start the development server: npm start
+3. Start the development server: npm start
 
-Open your web browser and navigate to http://localhost:3000 to use the application.
+4. Open your web browser and navigate to http://localhost:3000 to use the application.
 
 Folder Structure
 The project is organized as follows:
